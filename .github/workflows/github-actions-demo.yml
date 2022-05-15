@@ -1,11 +1,11 @@
 name: GitHub Actions Demo
 on: [push]
 jobs:
-  Ckeck python varsion:
+  Ckeck-python-version:
     runs-on: ubuntu-latest
     steps:
       - run: python --version
-  Testing code with pylint:
+  Testing-code-with-pylint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
