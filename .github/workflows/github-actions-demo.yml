@@ -3,10 +3,10 @@ on: [push]
 jobs:
   job1:
       runs-on: ubuntu-latest
-    steps:
-    - name: Checkout repo
+      steps:
+      - name: Checkout repo
       uses: actions/checkout@v3
-    - run: python --v 
+      - run: python --v 
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
